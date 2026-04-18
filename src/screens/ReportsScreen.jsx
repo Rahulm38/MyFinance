@@ -19,7 +19,7 @@ export default function ReportsScreen({ userType, onDownload }) {
     <div style={{ padding: "14px 14px", paddingBottom: 16 }}>
       <div style={{ background: "#eff6ff", borderRadius: 12, padding: "11px 13px", marginBottom: 14, display: "flex", gap: 8 }}>
         <Info size={15} color={P} style={{ flexShrink: 0, marginTop: 1 }} />
-        <div style={{ fontSize: 13, color: "#1e40af" }}>Reports are generated from your financial data managed by CA Priya Mehta. Select a template and download instantly.</div>
+        <div style={{ fontSize: 13, color: "#1e40af" }}>Reports are generated from your financial data managed by CA Chetan Marathe. Select a template and download instantly.</div>
       </div>
 
       {list.map(r => (
@@ -41,7 +41,7 @@ export default function ReportsScreen({ userType, onDownload }) {
       <div style={{ background: "#f8fafc", borderRadius: 14, padding: 16, border: "1.5px dashed #e2e8f0", textAlign: "center", marginTop: 4 }}>
         <MessageSquare size={22} color="#94a3b8" style={{ display: "block", margin: "0 auto 8px" }} />
         <div style={{ fontSize: 13, fontWeight: 600, color: "#64748b" }}>Need a custom report?</div>
-        <div style={{ fontSize: 12, color: "#94a3b8", marginTop: 4 }}>Contact CA Priya Mehta — she'll prepare it for you.</div>
+        <div style={{ fontSize: 12, color: "#94a3b8", marginTop: 4 }}>Contact CA Chetan Marathe — he'll prepare it for you.</div>
       </div>
     </div>
   );

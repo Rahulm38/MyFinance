@@ -5,7 +5,7 @@ import { AI_Qs, AI_ANSWERS } from "../data/aiData.js";
 
 export default function AIScreen({ userType }) {
   const [msgs, setMsgs] = useState([
-    { role: "ai", text: "Hello! 👋 I'm your AI Finance Assistant.\n\nI can answer questions about your taxes, investments, GST and compliance — all based on data managed by CA Priya Mehta.\n\nTap a suggestion below or type your question." }
+    { role: "ai", text: "Hello! 👋 I'm your AI Finance Assistant.\n\nI can answer questions about your taxes, investments, GST and compliance — all based on data managed by CA Chetan Marathe.\n\nTap a suggestion below or type your question." }
   ]);
   const [typing, setTyping] = useState(false);
   const [input, setInput] = useState("");
@@ -19,7 +19,7 @@ export default function AIScreen({ userType }) {
     setInput("");
     setTyping(true);
     setTimeout(() => {
-      const ans = AI_ANSWERS[q] || "This is a placeholder response for the prototype. In the full app, this will be answered using your actual financial data provided by CA Priya Mehta.\n\n📞 For specific queries, contact CA Priya Mehta directly.";
+      const ans = AI_ANSWERS[q] || "This is a placeholder response for the prototype. In the full app, this will be answered using your actual financial data provided by CA Chetan Marathe.\n\n📞 For specific queries, contact CA Chetan Marathe directly.";
       setMsgs(p => [...p, { role: "ai", text: ans }]);
       setTyping(false);
     }, 1500);
@@ -29,7 +29,7 @@ export default function AIScreen({ userType }) {
     <div style={{ display: "flex", flexDirection: "column", flex: 1, overflow: "hidden" }}>
       <div style={{ background: "#fffbeb", padding: "9px 14px", display: "flex", gap: 8, alignItems: "flex-start", flexShrink: 0 }}>
         <AlertCircle size={13} color="#d97706" style={{ flexShrink: 0, marginTop: 1 }} />
-        <div style={{ fontSize: 11, color: "#92400e" }}>AI Assistant — prototype mode. Responses use demo data. Always verify with CA Mehta for important decisions.</div>
+        <div style={{ fontSize: 11, color: "#92400e" }}>AI Assistant — prototype mode. Responses use demo data. Always verify with CA Marathe for important decisions.</div>
       </div>
 
       <div style={{ flex: 1, overflowY: "auto", padding: "12px 14px" }}>

@@ -68,7 +68,7 @@ export default function LoginScreen({ onLogin }) {
         </button>
 
         <div style={{ textAlign: "center", marginTop: 14, fontSize: 11, color: "#94a3b8" }}>
-          🔒 Powered by CA Mehta & Associates · Encrypted
+          🔒 Powered by CA Marathe & Associates · Encrypted
         </div>
       </div>
     </div>

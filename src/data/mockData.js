@@ -2,7 +2,7 @@ export const USERS = {
   personal: {
     pan: "ABCPS1234D", password: "1234",
     name: "Rajesh Sharma", email: "rajesh.sharma@gmail.com", mobile: "98765 43210",
-    caName: "CA Priya Mehta", caFirm: "Mehta & Associates",
+    caName: "CA Chetan Marathe", caFirm: "Marathe & Associates",
     creditScore: 742, creditRating: "Good",
     income: "₹18,40,000", taxPaid: "₹2,84,500", refundDue: "₹12,400", refundStatus: "Processing",
     ay: "AY 2024-25",
@@ -11,7 +11,7 @@ export const USERS = {
     pan: "AACES1234B", password: "5678",
     name: "Sharma Enterprises Pvt Ltd", owner: "Rajesh Sharma",
     email: "accounts@sharmaenterprises.com", mobile: "98765 43211",
-    caName: "CA Priya Mehta", caFirm: "Mehta & Associates",
+    caName: "CA Chetan Marathe", caFirm: "Marathe & Associates",
     gstin: "27AACES1234B1Z5", cin: "U74999MH2020PTC123456",
     turnover: "₹2,40,00,000", gstPayable: "₹3,20,000", tdsPayable: "₹84,000", netProfit: "₹38,40,000",
     ay: "AY 2024-25",
@@ -25,7 +25,7 @@ export const PERSONAL_DOCS = {
     { id:"p3", name:"ITR-1 Acknowledgement", sub:"FY 2022-23 · Verified", size:"175 KB", date:"Aug 2023", badge:null },
     { id:"p4", name:"Form 26AS", sub:"AY 2024-25 · Tax Credit Statement", size:"320 KB", date:"Jun 2024", badge:null },
     { id:"p5", name:"AIS Report", sub:"AY 2024-25 · Annual Info Statement", size:"280 KB", date:"Jun 2024", badge:null },
-    { id:"p6", name:"Income Tax Computation", sub:"FY 2023-24 · By CA Priya Mehta", size:"95 KB", date:"Jul 2024", badge:"New" },
+    { id:"p6", name:"Income Tax Computation", sub:"FY 2023-24 · By CA Chetan Marathe", size:"95 KB", date:"Jul 2024", badge:"New" },
   ],
   "Salary Slips": [
     { id:"p7", name:"Salary Slip — March 2024", sub:"TCS Ltd · Net Pay: ₹1,12,500", size:"45 KB", date:"Mar 2024", badge:"New" },
@@ -67,8 +67,8 @@ export const BUSINESS_DOCS = {
     { id:"b11", name:"Trade Licence", sub:"No: MH/TL/2020/5678 · Valid Dec 2024", size:"65 KB", date:"2020", badge:null },
   ],
   "Tax & TDS": [
-    { id:"b12", name:"ITR-6 Acknowledgement", sub:"FY 2023-24 · Filed by CA Priya Mehta", size:"195 KB", date:"Oct 2024", badge:"New" },
-    { id:"b13", name:"Tax Audit Report (Form 3CD)", sub:"FY 2023-24 · CA Priya Mehta", size:"520 KB", date:"Sep 2024", badge:"New" },
+    { id:"b12", name:"ITR-6 Acknowledgement", sub:"FY 2023-24 · Filed by CA Chetan Marathe", size:"195 KB", date:"Oct 2024", badge:"New" },
+    { id:"b13", name:"Tax Audit Report (Form 3CD)", sub:"FY 2023-24 · CA Chetan Marathe", size:"520 KB", date:"Sep 2024", badge:"New" },
     { id:"b14", name:"TDS Return 26Q — Q4 FY24", sub:"Jan–Mar 2024 · Filed ✓", size:"145 KB", date:"May 2024", badge:null },
     { id:"b15", name:"TDS Return 26Q — Q3 FY24", sub:"Oct–Dec 2023 · Filed ✓", size:"138 KB", date:"Jan 2024", badge:null },
     { id:"b16", name:"Advance Tax Challan Q4", sub:"FY 2023-24 · ₹85,000 paid", size:"45 KB", date:"Mar 2024", badge:null },
@@ -78,7 +78,7 @@ export const BUSINESS_DOCS = {
     { id:"b18", name:"Balance Sheet FY 2023-24", sub:"As on 31st March 2024", size:"285 KB", date:"Sep 2024", badge:"New" },
     { id:"b19", name:"Profit & Loss Statement", sub:"FY 2023-24 · Net Profit: ₹38.4 Lakhs", size:"215 KB", date:"Sep 2024", badge:"New" },
     { id:"b20", name:"Cash Flow Statement", sub:"FY 2023-24", size:"165 KB", date:"Sep 2024", badge:"New" },
-    { id:"b21", name:"Statutory Audit Report", sub:"FY 2022-23 · By CA Priya Mehta", size:"445 KB", date:"Oct 2023", badge:null },
+    { id:"b21", name:"Statutory Audit Report", sub:"FY 2022-23 · By CA Chetan Marathe", size:"445 KB", date:"Oct 2023", badge:null },
   ]
 };
 

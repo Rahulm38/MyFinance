@@ -13,7 +13,7 @@ export default function LoansScreen({ userType }) {
       <div style={{ background: "#fff7ed", padding: "12px 16px", margin: "12px 14px", borderRadius: 12, display: "flex", gap: 8, alignItems: "flex-start" }}>
         <Star size={15} color="#d97706" style={{ flexShrink: 0, marginTop: 1 }} />
         <div style={{ fontSize: 13, color: "#92400e" }}>
-          Offers screened by <strong>CA Priya Mehta</strong> based on your profile. Applying through this portal directly supports your CA.
+          Offers screened by <strong>CA Chetan Marathe</strong> based on your profile. Applying through this portal directly supports your CA.
         </div>
       </div>
 
@@ -58,7 +58,7 @@ export default function LoansScreen({ userType }) {
             <CheckCircle size={40} color="#059669" style={{ display: "block", margin: "0 auto 12px" }} />
             <div style={{ textAlign: "center", marginBottom: 20 }}>
               <div style={{ fontSize: 18, fontWeight: 800, color: "#1e293b" }}>Application Started!</div>
-              <div style={{ fontSize: 13, color: "#64748b", marginTop: 6 }}>CA Priya Mehta will connect you with <strong>{applied.bank}</strong> for your {applied.type}. Expect a call within 24 hours.</div>
+              <div style={{ fontSize: 13, color: "#64748b", marginTop: 6 }}>CA Chetan Marathe will connect you with <strong>{applied.bank}</strong> for your {applied.type}. Expect a call within 24 hours.</div>
             </div>
             <button onClick={() => setApplied(null)} style={{ width: "100%", padding: "14px 0", background: P, color: "#fff", border: "none", borderRadius: 12, fontSize: 15, fontWeight: 700, cursor: "pointer" }}>
               Done

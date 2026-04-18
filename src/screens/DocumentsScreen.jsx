@@ -43,7 +43,7 @@ export default function DocumentsScreen({ userType, onDownload }) {
         }
       </div>
       <div style={{ textAlign: "center", fontSize: 12, color: "#94a3b8", padding: "0 0 20px" }}>
-        Managed by {userType === "personal" ? "CA Priya Mehta" : "CA Priya Mehta & Associates"}
+        Managed by {userType === "personal" ? "CA Chetan Marathe" : "CA Chetan Marathe & Associates"}
       </div>
     </div>
   );
